@@ -5,3 +5,5 @@
   [http]
     sslverify = false
 
+3.eclipse bugs
+  void bugs upload from eclipse, then delete, download from Git!
