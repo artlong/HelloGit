@@ -5,4 +5,3 @@
   [http]
     sslverify = false
 
-3.qq
