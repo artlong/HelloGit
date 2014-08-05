@@ -1,0 +1,6 @@
+1.Git
+   https://github.com/artlong/HelloGit.git
+   
+2.gitconfig ssl  
+  [http]
+    sslverify = false
