@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE generatorConfiguration PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN" "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd" >
+<generatorConfiguration >
+  <context id="Maria_Longan" >
+  	<!-- 
+  	<plugin type="org.mybatis.generator.plugins.RenameExampleClassPlugin">
+		<property name="searchString" value="Example$" />  
+        <property name="replaceString" value="Criteria" />
+	</plugin>
+	-->
+	<commentGenerator>
+		<property name="suppressAllComments" value="true" />
+	</commentGenerator>
+		
+    <jdbcConnection driverClass="org.mariadb.jdbc.Driver" connectionURL="jdbc:mariadb://127.0.0.1:3306/stream" userId="longan" password="1qazxsw23edc" />
+    
+    <javaModelGenerator targetPackage="tw.com.artlong.model" targetProject="HelloGit" />
+    <sqlMapGenerator targetPackage="tw.com.artlong.dao.mapper" targetProject="HelloGit" />
+    <javaClientGenerator targetPackage="tw.com.artlong.dao" targetProject="HelloGit" type="XMLMAPPER" />
+    
+    <!--
+    <table schema="???" tableName="???" >
+      <columnOverride column="???" property="???" />
+    </table>
+    -->
+    <table tableName="%" enableCountByExample="false" enableUpdateByExample="false" enableDeleteByExample="false"
+    enableSelectByExample="false" selectByExampleQueryId="false">
+    	<property name="useActualColumnNames" value="true"/>
+	</table>
+  </context>
+</generatorConfiguration>
