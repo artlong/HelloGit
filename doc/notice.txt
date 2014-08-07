@@ -7,3 +7,7 @@
 
 3.eclipse bugs
   void bugs upload from eclipse, then delete, download from Git!
+
+4.create Maven Project
+5.create Maven Web Project
+6.modify Maven Project's folder structure
